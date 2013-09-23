@@ -2,11 +2,11 @@
 .simpleFAQ_list li { list-style: none; }
 .simpleFAQ_list .question {
   padding-left: 18px;
-  background: transparent url('<%= asset_path "simplefaq/plus.png" %>') left center no-repeat;
+  background: transparent url('/assets/simplefaq/plus.png') left center no-repeat;
   cursor: pointer;
 }
 .simpleFAQShowing .question {
-  background: transparent url('<%= asset_path "simplefaq/minus.png" %>') left center no-repeat;
+  background: transparent url('/assets/simplefaq/minus.png') left center no-repeat;
 }
 .simpleFAQ_list .simpleFAQHover { color: #060; }
 .simpleFAQ_item .answer {
